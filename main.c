@@ -1,6 +1,7 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include "./curl/curl-8.7.1_9-win32-mingw/include/curl/curl.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "C:\Users\omarh\OneDrive\Documents\GitHub\Weather-Logging-app\main.c"
 
 void getweather(){
 CURL *hnd = curl_easy_init();
