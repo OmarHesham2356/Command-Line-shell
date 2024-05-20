@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include ".\curl\curl.h"
+#include "./curl/curl-8.7.1_9-win32-mingw/include/curl/curl.h"
 
 void getweather(){
 CURL *hnd = curl_easy_init();
